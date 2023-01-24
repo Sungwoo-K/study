@@ -16,6 +16,9 @@ class notSingletonCat {
 let kitty = new notSingletonCat("kitty");
 let nabi = new notSingletonCat("nabi");
 
+kitty.speak();
+nabi.speak();
+
 if (kitty === nabi) {
   console.log("they are same");
 } else {
